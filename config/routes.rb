@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'welcome#home'
   resources :articles
 
   
@@ -18,8 +18,8 @@ Rails.application.routes.draw do
 
   #####################WELCOME Controller Routes########################################333
 
-    # get 'welcome/home' , to: 'welcome#home'
-    # get 'welcome/about' , to: 'welcome#about'
+     get 'welcome/home' , to: 'welcome#home'
+     get 'welcome/about' , to: 'welcome#about'
 
 
   #####################Pages Controller ################################################
